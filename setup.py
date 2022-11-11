@@ -15,6 +15,12 @@ setup(
     include_package_data=True,
     # 패키징을 위한 라이브러리 설치
     install_requires=[
-        "attrs==19.3.0",
+        "torch",
+        "torchvision",
+        "torchsummary",
+        "tensorboard",
+        "numpy",
+        "pandas",
+        "matplotlib"
     ],
 )
