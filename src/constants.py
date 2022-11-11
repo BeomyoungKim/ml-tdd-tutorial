@@ -7,3 +7,8 @@ MODEL_DIR_PATH = os.path.join(ROOT_DIR, 'models')
 
 RAW_DATA_DIR_PATH = os.path.join(DATA_DIR_PATH, 'raw')
 PROCESSED_DATA_DIR_PATH = os.path.join(DATA_DIR_PATH, 'processed')
+
+CLASSES = (
+    'T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
+    'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle Boot'
+)
