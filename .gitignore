@@ -225,3 +225,10 @@ cython_debug/
 
 # tensorboard
 runs/*
+
+# model
+*.pt
+!model.pt
+
+# data
+FashionMNIST
